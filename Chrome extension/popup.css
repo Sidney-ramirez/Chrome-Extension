@@ -1,0 +1,19 @@
+popup.css code: 
+body {
+  background: url('https://static2.comicvine.com/uploads/original/3/30334/2088542-jla6994.jpg') !important;
+}
+ 
+#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
